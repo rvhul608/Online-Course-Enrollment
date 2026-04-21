@@ -18,7 +18,7 @@ public class Fees {
     public double getAmount(){
         return amount;
     }
-    public String getdeadLine(){
+    public String getDeadline(){
         return deadLine;
     }
     public String getPaymentStatus(){
@@ -30,7 +30,7 @@ public class Fees {
     }
     public boolean payFees(){
         this.paymentStatus = "Paid";
-        System.out.println("Fees paid Successfully");
+        System.out.println("Fees paid successfully");
         return true;
     }
 }

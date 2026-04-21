@@ -19,12 +19,12 @@ public class Student extends Person implements Enrollable{
         return department;
     }
     public boolean registerStudent(){
-        System.out.println("Student regisered : "+ getName());
+        System.out.println("Student registered: " + getName());
         return true;
     }
     @Override
     public void enrollCourse(){
-        System.out.println(getName() + "enrolled in a course");
+        System.out.println(getName() + " enrolled in a course");
     }
     @Override
     public void dropCourse() {
@@ -39,6 +39,6 @@ public class Student extends Person implements Enrollable{
 
 @Override
 public void displayInfo(){
-    System.out.println("Student id : "+ studentId +"Name : "+ getName()+ "Department : "+ department);
+    System.out.println("Student id : "+ studentId + " Name : "+ getName()+ " Department : "+ department);
 }
 }

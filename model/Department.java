@@ -24,7 +24,7 @@ public class Department{
         courses.add(course);
         return true;
     }
-    public ArrayList<Course> ViewCourses(){
+    public ArrayList<Course> getCourses(){
         return courses;
     }
     public void addStudent(Student student){

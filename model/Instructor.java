@@ -11,7 +11,7 @@ public class Instructor extends Person {
         return instructorId;
     }
     public boolean assignCourse(Course course) {
-        System.out.println("Course assigned by "+getName());
+        System.out.println("Course assigned by " + getName());
         return true;
     }
     @Override

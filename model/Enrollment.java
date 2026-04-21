@@ -15,7 +15,7 @@ public class Enrollment {
     public int getEnrollmentId(){
         return enrollmentId;
     }
-    public String getEnrollemntDate(){
+    public String getEnrollmentDate(){
         return enrollmentDate;
     }
     public int getStudentId(){
@@ -25,11 +25,11 @@ public class Enrollment {
         return courseId;
     }
     public boolean enrollCourse(){
-        System.out.println("Enrolled in course ID : "+ courseId);
+        System.out.println("Enrolled in course ID: "+ courseId);
         return true;
     }
     public boolean dropCourse(){
-        System.out.println("Dropped course ID : "+ courseId);
+        System.out.println("Dropped course ID: "+ courseId);
         return true;
     }
     @Override

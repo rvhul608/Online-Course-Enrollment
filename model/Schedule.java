@@ -20,7 +20,7 @@ public class Schedule {
         return day;
     }
     public boolean assignSchedule(){
-        System.out.println("Schedule Assigned :"+ scheduleId + "day : "+ day+ "time : "+ time);
+        System.out.println("Schedule Assigned: "+ scheduleId + " Day: "+ day+ " Time: "+ time);
         return true;
     }
     public String viewSchedule(){

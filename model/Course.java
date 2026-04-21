@@ -23,7 +23,7 @@ public class Course {
         return true;
     }
     public String displayCourse(){
-        return "ID"+ courseId + " Name: " + courseName + " Credits: " + credits;
+        return "ID: "+ courseId + " Name: " + courseName + " Credits: " + credits;
     }
     
 }
